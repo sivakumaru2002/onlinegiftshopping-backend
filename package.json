@@ -18,7 +18,7 @@
   },
   "scripts": {
     "build:staging": "env-cmd -f .env.staging npm run build",
-    "start": "nodemon index.js",
+    "start": "nodemon server.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -41,7 +41,7 @@
     ]
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
+  "main": "server.js",
   "keywords": [],
   "author": "",
   "license": "ISC"
