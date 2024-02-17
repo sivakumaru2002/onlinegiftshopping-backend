@@ -1,6 +1,3 @@
-import LogRocket from 'logrocket';
-LogRocket.init('gmh775/onlinegiftshopping')
-
 const express = require('express');
 const cors = require('cors');
 
